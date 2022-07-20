@@ -1,0 +1,1 @@
+from lhs import LatinHypercubeSampling
