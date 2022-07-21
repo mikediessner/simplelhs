@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "1.0.0" 
+VERSION = "1.0.1" 
 DESCRIPTION = "Simple implementation of Latin Hypercube Sampling."
 LONG_DESCRIPTION = "This simple implementation of Latin Hypercube Sampling can be used to find collection of points that cover a predefined space. Currently, a random and a maxmin design are supported."
 
