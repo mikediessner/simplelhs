@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+simplelhs.egg-info/PKG-INFO
+simplelhs.egg-info/SOURCES.txt
+simplelhs.egg-info/dependency_links.txt
+simplelhs.egg-info/requires.txt
+simplelhs.egg-info/top_level.txt
+src/__init__.py
+src/lhs.py
