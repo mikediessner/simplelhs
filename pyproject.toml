@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simplelhs"
+version = "1.1.0"
+authors = [
+  { name="Mike Diessner", email="mikediessner@gmail.com" },
+]
+description = "Simple implementation of Latin Hypercube Sampling."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+]
+keywords=["Python", "Latin Hypercube Sampling", "Space filling design"]
+dependencies = ["numpy", "scipy"]
+
+[project.urls]
+"Homepage" = "https://github.com/mikediessner/simplelhs"
