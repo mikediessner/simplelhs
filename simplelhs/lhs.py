@@ -6,12 +6,12 @@ class LatinHypercubeSampling:
 
     def __init__(self, dims):
         """
-        Latin hypercube sampling.
+        Latin Hypercube Sampling.
 
         Attributes
         ----------
         dims : int
-            Number of dimensions for the Latin hypercube sample.
+            Number of dimensions for the Latin Hypercube sample.
 
         Examples
         --------
@@ -27,7 +27,7 @@ class LatinHypercubeSampling:
 
     def random(self, points):
         """
-        Draw a random Latin hypercube Sample.
+        Draw a random Latin Hypercube sample.
 
         1. Pick random permutations of the set (0, 1, ..., points-1) for each
            dimension. Each integer defines the quantile to which the final
@@ -39,12 +39,12 @@ class LatinHypercubeSampling:
         Parameters
         ----------
         points : int
-            Number of points for the Latin hypercube sample.
+            Number of points for the Latin Hypercube sample.
 
         Returns
         -------
         hypercube : ndarray
-            n x d array containing the random Latin hypercube sample where n
+            n x d array containing the random Latin Hypercube sample where n
             is the number of points and d is the number of dimensions.
         """
 
@@ -66,25 +66,25 @@ class LatinHypercubeSampling:
 
     def maximin(self, points, samples=1000):
         """
-        Draw a maximin Latin hypercube sample.
+        Draw a Maximin Latin Hypercube sample.
 
-        1. Draw a large number of random Latin hypercube samples.
+        1. Draw a large number of random Latin Hypercube samples.
         2. Compute the minimal distance between the points for each random
-           Latin hypercube sample.
-        3. Pick the random Latin hypercube sample with the largest minimal
+           Latin Hypercube sample.
+        3. Pick the random Latin Hypercube sample with the largest minimal
            distance.
 
         Parameters
         ----------
         points : int
-            Number of points for the Latin hypercube sample.
+            Number of points for the Latin Hypercube sample.
         samples : int
-            Number of random Latin hypercube samples that should be considered.
+            Number of random Latin Hypercube samples that should be considered.
 
         Returns
         -------
         maximin_hypercube : ndarray
-            n x d array containing the maximin Latin hypercube sample where n
+            n x d array containing the Maximin Latin Hypercube sample where n
             is the number of points and d is the number of dimensions.
         """
 

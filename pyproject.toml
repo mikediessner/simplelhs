@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "simplelhs"
-version = "1.1.0"
+version = "1.2.1"
 authors = [
   { name="Mike Diessner", email="mikediessner@gmail.com" },
 ]
