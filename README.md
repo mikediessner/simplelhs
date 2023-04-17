@@ -1,7 +1,7 @@
 # simplelhs
 Simple implementation of Latin Hypercube Sampling.
 
-![PyPI - Downloads](https://img.shields.io/pypi/dm/simplelhs)
+[![Downloads](https://static.pepy.tech/badge/simplelhs)](https://pepy.tech/project/simplelhs)
 
 # Example
 
