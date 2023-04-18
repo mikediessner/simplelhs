@@ -1,7 +1,7 @@
 # simplelhs
 Simple implementation of Latin Hypercube Sampling.
 
-[![Downloads](https://static.pepy.tech/badge/simplelhs)](https://pepy.tech/project/simplelhs)
+[![Downloads](https://static.pepy.tech/personalized-badge/simplelhs?period=total&units=none&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/simplelhs)  
 
 # Example
 
